@@ -4,6 +4,7 @@
  * Demo: https://marc.dev/demo/prism-synthwave84
  *
  * Ported for PrismJS by Marc Backes [@themarcba]
+ * Adapted to Tailwind CSS and HTML email in Maizzle by Cosmin Popovici [@cossssmin]
  */
 
 @screen all {
@@ -12,8 +13,10 @@
   }
 }
 
-pre[class*="language-"] {
+pre {
   @apply p-24 mb-24 overflow-auto font-mono text-base text-left whitespace-pre;
+	background-color: #2a2139 !important;
+	background-image: linear-gradient(to bottom, #2a2139 75%, #34294f);
 	color: #f92aad;
   hyphens: none;
 	tab-size: 2;
@@ -21,13 +24,6 @@ pre[class*="language-"] {
 	word-break: normal;
 	word-spacing: normal;
 	word-wrap: normal;
-}
-
-/* Code blocks */
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-	background-color: #2a2139 !important;
-	background-image: linear-gradient(to bottom, #2a2139 75%, #34294f);
 }
 
 /* Inline code */
@@ -44,7 +40,7 @@ pre[class*="language-"] {
 }
 
 .token.punctuation {
-	color: #ccc;
+	color: #cccccc;
 }
 
 .token.tag,

@@ -337,15 +337,9 @@ module.exports = {
 
   events: {
     async afterConfig(config) {
-      config.markdown = {
-        highlight: function(code, lang, callback) {
-          config.markdown.lang = lang
-          return Prism.highlight(code, Prism.languages[lang], lang)
-        },
+      config.markdown.highlight = (code, lang, callback) => {
+        return Prism.highlight(code, Prism.languages[lang], lang)
       }
-    },
-    afterRender(html, config) {
-      return html.replace(/<pre>/g, `<pre class="language-">`)
     },
   },
 }
