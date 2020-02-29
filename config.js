@@ -335,7 +335,7 @@ module.exports = {
   },
 
   events: {
-    async afterConfig(config) {
+    beforeCreate(config) {
       config.markdown.highlight = (code, lang, callback) => {
         return Prism.highlight(code, Prism.languages[lang], lang)
       }
