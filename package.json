@@ -6,8 +6,9 @@
     "watch": "maizzle serve"
   },
   "dependencies": {
-    "@maizzle/framework": "^0.8.0",
-    "prismjs": "^1.19.0"
+    "@maizzle/framework": "^1.0.0",
+    "posthtml-prism": "^1.0.1",
+    "prismjs": "^1.20.0"
   },
   "browserslist": [
     "> 1%"
