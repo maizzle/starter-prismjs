@@ -15,15 +15,12 @@ module.exports = {
       path: 'build_production',
     },
   },
-
   inlineCSS: {
     enabled: true,
   },
-
   prettify: {
     enabled: true,
   },
-
   removeUnusedCSS: {
     enabled: true,
   },
