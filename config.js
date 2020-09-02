@@ -13,13 +13,6 @@ const Prism = require('prismjs')
 
 module.exports = {
   build: {
-    assets: {
-      source: 'src/assets/images',
-      destination: 'images',
-    },
-    destination: {
-      path: 'build_local',
-    },
     posthtml: {
       plugins: [
         require('posthtml-prism')(),
@@ -29,7 +22,14 @@ module.exports = {
       css: 'src/assets/css/main.css',
     },
     templates: {
-      root: 'src/templates',
+      source: 'src/templates',
+      destination: {
+        path: 'build_local',
+      },
+      assets: {
+        source: 'src/assets/images',
+        destination: 'images',
+      },
     },
   },
   markdown: {
