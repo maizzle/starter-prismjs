@@ -110,7 +110,7 @@ pre {
 }
 
 .token.italic {
-  @apply italic;
+  font-style: italic;
 }
 
 .token.entity {
