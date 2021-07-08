@@ -18,9 +18,6 @@ module.exports = {
         require('posthtml-prism')(),
       ],
     },
-    tailwind: {
-      css: 'src/assets/css/main.css',
-    },
     templates: {
       source: 'src/templates',
       destination: {

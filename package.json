@@ -6,7 +6,7 @@
     "watch": "maizzle serve"
   },
   "dependencies": {
-    "@maizzle/framework": "^3.5.0",
+    "@maizzle/framework": "^3.0.0",
     "posthtml-prism": "^1.0.2",
     "prismjs": "^1.23.0"
   }
