@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@maizzle/framework": "^3.0.0",
-    "posthtml-prism": "^1.0.2",
+    "posthtml-prism": "^1.0.3",
     "prismjs": "^1.23.0"
   }
 }
