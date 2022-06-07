@@ -1,4 +1,16 @@
-# Syntax highlighting in HTML email with PrismJS
+<div align="center">
+  <p>
+    <a href="https://maizzle.com/#gh-light-mode-only" target="_blank">
+      <img src="./.github/logo-light.svg" alt="Maizzle" width="200">
+    </a>
+    <a href="https://maizzle.com/#gh-dark-mode-only" target="_blank">
+      <img src="./.github/logo-dark.svg" alt="Maizzle" width="200">
+    </a>
+  </p>
+  <p>Syntax highlighting in HTML email with PrismJS</p>
+</div>
+
+## About
 
 This is the repo for the [How to add PrismJS syntax highlighting to HTML emails](https://maizzle.com/guides/syntax-highlighting-prismjs) Maizzle guide.
 
