@@ -14,7 +14,7 @@
 }
 
 pre {
-  @apply p-24 mb-24 overflow-auto font-mono text-base text-left whitespace-pre;
+  @apply p-6 mb-6 overflow-auto font-mono text-base text-left whitespace-pre;
 	background-color: #2a2139 !important;
 	background-image: linear-gradient(to bottom, #2a2139 75%, #34294f);
 	color: #f92aad;
@@ -28,7 +28,7 @@ pre {
 
 /* Inline code */
 :not(pre) > code {
-  @apply bg-gray-100 border border-solid border-gray-300 text-red-400 text-sm px-8 py-4 rounded whitespace-normal;
+  @apply bg-gray-100 border border-solid border-gray-300 text-red-400 text-sm px-2 py-1 rounded whitespace-normal;
 }
 
 .token.comment,
