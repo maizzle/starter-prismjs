@@ -23,7 +23,7 @@ image: https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2
                 <component
                   src="src/components/v-image.html"
                 >
-                  <div class="leading-16 sm:h-8">&zwnj;</div>
+                  <div class="leading-16 sm:h-8" role="separator">&zwnj;</div>
                   <table class="w-full">
                     <tr>
                       <td class="w-12 sm:w-4"></td>
@@ -34,15 +34,21 @@ image: https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2
                         <p class="m-0 text-white text-lg leading-6">
                           Let's use PrismJS and Markdown to add syntax highlighting to code blocks in our HTML email template.
                         </p>
-                        <div class="leading-16 sm:h-8">&zwnj;</div>
+                        <div class="leading-16 sm:h-8" role="separator">&zwnj;</div>
                         <table>
                           <tr>
-                            <th class="sm:block bg-indigo-800 hover:bg-indigo-700 rounded" style="mso-padding-alt: 16px 24px;">
+                            <th class="sm:block">
                               <a
-                                href="https://maizzle.com/guides/syntax-highlighting-prismjs"
-                                class="block font-semibold text-white text-base leading-full py-4 px-6 [text-decoration:none]"
+                                href="https://example.com"
+                                class="inline-block py-4 px-6 rounded text-base leading-full font-semibold text-center [text-decoration:none] text-white bg-indigo-800 hover:bg-indigo-700"
                               >
-                              Read the guide &rarr;
+                                <outlook>
+                                  <i class="tracking-6 -mso-font-width-full mso-text-raise-7.5">&#8202;</i>
+                                </outlook>
+                                <span class="mso-text-raise-4" style="mso-text-raise: 16px">Read the guide &rarr;</span>
+                                <outlook>
+                                  <i class="tracking-6 -mso-font-width-full">&#8202;</i>
+                                </outlook>
                               </a>
                             </th>
                             <th class="pl-4 sm:px-0 sm:pt-4 sm:block font-normal text-white text-base">
@@ -60,11 +66,11 @@ image: https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2
                       <td class="w-12 sm:w-4"></td>
                     </tr>
                   </table>
-                  <div class="leading-16 sm:h-8">&zwnj;</div>
+                  <div class="leading-16 sm:h-8" role="separator">&zwnj;</div>
                 </component>
               </td>
             </tr>
-            <tr>
+            <tr role="separator">
               <td class="h-8"></td>
             </tr>
             <tr>
@@ -75,7 +81,9 @@ image: https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2
                       <table class="w-full">
                         <tr>
                           <td class="p-6 text-base leading-6 text-gray-800 bg-white rounded max-w-0">
-                            <p class="m-0 mb-1 text-sm text-gray-500">5 Feb, 2020</p>
+                            <p class="m-0 mb-1 text-sm text-gray-500">
+                              5 Feb, 2020
+                            </p>
                             <h2 class="m-0 mb-6 text-2xl leading-7.5">
                               <a
                                 href="https://maizzle.com/guides/syntax-highlighting-prismjs"
@@ -88,7 +96,9 @@ image: https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2
                               This email template illustrates how code syntax highlighting in HTML email looks like.
                               It was created with PrismJS, Synthwave '84 theme, and Markdown fenced code blocks in Maizzle.
                             </p>
-                            <p class="m-0 mb-6">For example, here's a block of JavaScript code:</p>
+                            <p class="m-0 mb-6">
+                              For example, here's a block of JavaScript code:
+                            </p>
                             <!--[if mso]><table width="100%"><tr><td style="background: #2a2139; padding: 24px;"><![endif]-->
                             <md>
                               ```js
@@ -100,7 +110,9 @@ image: https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2
                               ```
                             </md>
                             <!--[if mso]></td></tr></table><![endif]-->
-                            <p class="m-0 mb-6">And here is some HTML markup:</p>
+                            <p class="m-0 mb-6">
+                              And here is some HTML markup:
+                            </p>
                             <!--[if mso]><table width="100%"><tr><td style="background: #2a2139; padding: 24px;"><![endif]-->
                             <md>
                               ```html
@@ -114,7 +126,7 @@ image: https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2
                               ```
                             </md>
                             <!--[if mso]></td></tr></table><![endif]-->
-                            <table class="w-full">
+                            <table class="w-full" role="separator">
                               <tr>
                                 <td class="py-6">
                                   <div class="bg-gray-300 h-px leading-px">&zwnj;</div>
@@ -132,8 +144,10 @@ image: https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2
             </tr>
             <tr>
               <td class="px-12 sm:px-6 text-left">
-                <h3 class="m-0 text-base font-semibold text-gray-500 uppercase">Resources</h3>
-                <div class="leading-6">&zwnj;</div>
+                <h3 class="m-0 text-base font-semibold text-gray-500 uppercase">
+                  Resources
+                </h3>
+                <div class="leading-6" role="separator">&zwnj;</div>
                 <table class="w-full">
                   <tr>
                     <td>
@@ -148,7 +162,7 @@ image: https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2
                       <p class="m-0 text-base leading-6 text-gray-500">
                         Read the guide to understand how to implement syntax highlighting using Markdown in your Maizzle email templates.
                       </p>
-                      <table class="w-full">
+                      <table class="w-full" role="separator">
                         <tr>
                           <td class="py-6">
                             <div class="bg-gray-300 h-px leading-px">&zwnj;</div>
@@ -160,12 +174,14 @@ image: https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2
                   <tr>
                     <td>
                       <h4 class="m-0 mb-1 text-xl font-semibold">
-                        <a href="https://prismjs.com" class="text-blue-500 hover:text-blue-400 [text-decoration:none]">PrismJS</a>
+                        <a href="https://prismjs.com" class="text-blue-500 hover:text-blue-400 [text-decoration:none]">
+                          PrismJS
+                        </a>
                       </h4>
                       <p class="m-0 text-base leading-6 text-gray-500">
                         Lightweight, extensible syntax highlighter, built with modern web standards in mind.
                       </p>
-                      <table class="w-full">
+                      <table class="w-full" role="separator">
                         <tr>
                           <td class="py-6">
                             <div class="bg-gray-300 h-px leading-px">&zwnj;</div>
@@ -187,7 +203,7 @@ image: https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2
                       <p class="m-0 text-base leading-6 text-gray-500">
                         Originally by Robb Owen [@Robb0wen] for Visual Studio Code. Ported for PrismJS by Marc Backes [@themarcba].
                       </p>
-                      <table class="w-full">
+                      <table class="w-full" role="separator">
                         <tr>
                           <td class="py-6">
                             <div class="bg-gray-300 h-px leading-px">&zwnj;</div>
@@ -206,13 +222,15 @@ image: https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2
                           Markdown
                         </a>
                       </h4>
-                      <p class="m-0 text-base leading-6 text-gray-500">Learn how to use Markdown in your Maizzle email templates.</p>
+                      <p class="m-0 text-base leading-6 text-gray-500">
+                        Learn how to use Markdown in your Maizzle email templates.
+                      </p>
                     </td>
                   </tr>
                 </table>
               </td>
             </tr>
-            <tr>
+            <tr role="separator">
               <td class="h-16 sm:h-8"></td>
             </tr>
             <tr>
@@ -223,7 +241,7 @@ image: https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2
                 </p>
               </td>
             </tr>
-            <tr>
+            <tr role="separator">
               <td class="h-12 sm:h-32"></td>
             </tr>
           </table>
