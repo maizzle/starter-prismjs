@@ -3,9 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="x-apple-disable-message-reformatting">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
   <!--[if mso]>
   <noscript>
     <xml>
@@ -120,7 +119,7 @@
 <v:image src="undefined" xmlns:v="urn:schemas-microsoft-com:vml" style="width: undefined; height: undefined;" />
 <v:rect fill="false" stroke="false" style="position: absolute; width: undefined; height: undefined;">
 <v:textbox inset="0,0,0,0"><div><![endif]-->
-                <div class="sm-h-8" style="line-height: 64px">&zwnj;</div>
+                <div class="sm-h-8" role="separator" style="line-height: 64px">&zwnj;</div>
                 <table style="width: 100%" cellpadding="0" cellspacing="0" role="presentation">
                   <tr>
                     <td class="sm-w-4" style="width: 48px"></td>
@@ -131,12 +130,18 @@
                       <p style="margin: 0; font-size: 18px; line-height: 24px; color: #fff">
                         Let's use PrismJS and Markdown to add syntax highlighting to code blocks in our HTML email template.
                       </p>
-                      <div class="sm-h-8" style="line-height: 64px">&zwnj;</div>
+                      <div class="sm-h-8" role="separator" style="line-height: 64px">&zwnj;</div>
                       <table cellpadding="0" cellspacing="0" role="presentation">
                         <tr>
-                          <th class="sm-block hover-bg-indigo-700" style="mso-padding-alt: 16px 24px; border-radius: 4px; background-color: #3730a3">
-                            <a href="https://maizzle.com/guides/syntax-highlighting-prismjs" style="text-decoration: none; display: block; padding: 16px 24px; font-size: 16px; font-weight: 600; line-height: 100%; color: #fff">
-                              Read the guide &rarr;
+                          <th class="sm-block">
+                            <a href="https://example.com" class="hover-bg-indigo-700" style="text-decoration: none; display: inline-block; border-radius: 4px; background-color: #3730a3; padding: 16px 24px; text-align: center; font-size: 16px; font-weight: 600; line-height: 100%; color: #fff">
+                              <!--[if mso]>
+                                <i style="mso-text-raise: 30px; letter-spacing: 24px">&#8202;</i>
+                              <![endif]-->
+                              <span style="mso-text-raise: 16px">Read the guide &rarr;</span>
+                              <!--[if mso]>
+                                <i style="letter-spacing: 24px">&#8202;</i>
+                              <![endif]-->
                             </a>
                           </th>
                           <th class="sm-px-0 sm-pt-4 sm-block" style="padding-left: 16px; font-size: 16px; font-weight: 400; color: #fff">
@@ -151,11 +156,11 @@
                     <td class="sm-w-4" style="width: 48px"></td>
                   </tr>
                 </table>
-                <div class="sm-h-8" style="line-height: 64px">&zwnj;</div>
+                <div class="sm-h-8" role="separator" style="line-height: 64px">&zwnj;</div>
                 <!--[if mso]></div></v:textbox></v:rect><![endif]-->
               </td>
             </tr>
-            <tr>
+            <tr role="separator">
               <td style="height: 32px"></td>
             </tr>
             <tr>
@@ -166,7 +171,9 @@
                       <table style="width: 100%" cellpadding="0" cellspacing="0" role="presentation">
                         <tr>
                           <td style="max-width: 0; border-radius: 4px; background-color: #fff; padding: 24px; font-size: 16px; line-height: 24px; color: #1f2937">
-                            <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280">5 Feb, 2020</p>
+                            <p style="margin: 0 0 4px; font-size: 14px; color: #6b7280">
+                              5 Feb, 2020
+                            </p>
                             <h2 style="margin: 0 0 24px; font-size: 24px; line-height: 30px">
                               <a href="https://maizzle.com/guides/syntax-highlighting-prismjs" style="text-decoration: none; color: #000">
                                 Using Markdown to add code syntax highlighting in HTML emails
@@ -176,7 +183,9 @@
                               This email template illustrates how code syntax highlighting in HTML email looks like.
                               It was created with PrismJS, Synthwave '84 theme, and Markdown fenced code blocks in Maizzle.
                             </p>
-                            <p style="margin: 0 0 24px">For example, here's a block of JavaScript code:</p>
+                            <p style="margin: 0 0 24px">
+                              For example, here's a block of JavaScript code:
+                            </p>
                             <!--[if mso]><table width="100%"><tr><td style="background: #2a2139; padding: 24px;"><![endif]-->
                             <pre style="margin-bottom: 24px; overflow: auto; white-space: pre; padding: 24px; text-align: left; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 16px; background-image: linear-gradient(to bottom, #2a2139 75%, #34294f); color: #f92aad; hyphens: none; tab-size: 2; text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3; word-break: normal; word-spacing: normal; word-wrap: normal; background-color: #2a2139"><code class="language-js"><span style="color: #f4eee4; text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575">function</span> <span style="color: #fdfdfd; text-shadow: 0 0 2px #001716, 0 0 3px #03edf975, 0 0 5px #03edf975, 0 0 8px #03edf975">foo</span><span style="color: #cccccc">(</span><span class="token">bar</span><span style="color: #cccccc">)</span> <span style="color: #cccccc">{</span>
   <span style="color: #f4eee4; text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575">var</span> a <span class="operator" style="color: #67cdcc">=</span> <span style="color: #e2777a">42</span><span style="color: #cccccc">,</span>
@@ -185,7 +194,9 @@
 <span style="color: #cccccc">}</span>
 </code></pre>
                             <!--[if mso]></td></tr></table><![endif]-->
-                            <p style="margin: 0 0 24px">And here is some HTML markup:</p>
+                            <p style="margin: 0 0 24px">
+                              And here is some HTML markup:
+                            </p>
                             <!--[if mso]><table width="100%"><tr><td style="background: #2a2139; padding: 24px;"><![endif]-->
                             <pre style="margin-bottom: 24px; overflow: auto; white-space: pre; padding: 24px; text-align: left; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 16px; background-image: linear-gradient(to bottom, #2a2139 75%, #34294f); color: #f92aad; hyphens: none; tab-size: 2; text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3; word-break: normal; word-spacing: normal; word-wrap: normal; background-color: #2a2139"><code class="language-html"><span style="color: #e2777a"><span style="color: #e2777a"><span style="color: #cccccc">&lt;</span>table</span> <span style="color: #e2777a">class</span><span class="attr-value" style="color: #f87c32"><span style="color: #cccccc">=</span><span style="color: #cccccc">"</span>w-full<span style="color: #cccccc">"</span></span><span style="color: #cccccc">></span></span>
   <span style="color: #e2777a"><span style="color: #e2777a"><span style="color: #cccccc">&lt;</span>tr</span><span style="color: #cccccc">></span></span>
@@ -196,7 +207,7 @@
 <span style="color: #e2777a"><span style="color: #e2777a"><span style="color: #cccccc">&lt;/</span>table</span><span style="color: #cccccc">></span></span>
 </code></pre>
                             <!--[if mso]></td></tr></table><![endif]-->
-                            <table style="width: 100%" cellpadding="0" cellspacing="0" role="presentation">
+                            <table role="separator" style="width: 100%" cellpadding="0" cellspacing="0">
                               <tr>
                                 <td style="padding-top: 24px; padding-bottom: 24px">
                                   <div style="height: 1px; background-color: #d1d5db; line-height: 1px">&zwnj;</div>
@@ -214,8 +225,10 @@
             </tr>
             <tr>
               <td class="sm-px-6" style="padding-left: 48px; padding-right: 48px; text-align: left">
-                <h3 style="margin: 0; font-size: 16px; font-weight: 600; text-transform: uppercase; color: #6b7280">Resources</h3>
-                <div style="line-height: 24px">&zwnj;</div>
+                <h3 style="margin: 0; font-size: 16px; font-weight: 600; text-transform: uppercase; color: #6b7280">
+                  Resources
+                </h3>
+                <div role="separator" style="line-height: 24px">&zwnj;</div>
                 <table style="width: 100%" cellpadding="0" cellspacing="0" role="presentation">
                   <tr>
                     <td>
@@ -227,7 +240,7 @@
                       <p style="margin: 0; font-size: 16px; line-height: 24px; color: #6b7280">
                         Read the guide to understand how to implement syntax highlighting using Markdown in your Maizzle email templates.
                       </p>
-                      <table style="width: 100%" cellpadding="0" cellspacing="0" role="presentation">
+                      <table role="separator" style="width: 100%" cellpadding="0" cellspacing="0">
                         <tr>
                           <td style="padding-top: 24px; padding-bottom: 24px">
                             <div style="height: 1px; background-color: #d1d5db; line-height: 1px">&zwnj;</div>
@@ -239,12 +252,14 @@
                   <tr>
                     <td>
                       <h4 style="margin: 0 0 4px; font-size: 20px; font-weight: 600">
-                        <a href="https://prismjs.com" class="hover-text-blue-400" style="text-decoration: none; color: #3b82f6">PrismJS</a>
+                        <a href="https://prismjs.com" class="hover-text-blue-400" style="text-decoration: none; color: #3b82f6">
+                          PrismJS
+                        </a>
                       </h4>
                       <p style="margin: 0; font-size: 16px; line-height: 24px; color: #6b7280">
                         Lightweight, extensible syntax highlighter, built with modern web standards in mind.
                       </p>
-                      <table style="width: 100%" cellpadding="0" cellspacing="0" role="presentation">
+                      <table role="separator" style="width: 100%" cellpadding="0" cellspacing="0">
                         <tr>
                           <td style="padding-top: 24px; padding-bottom: 24px">
                             <div style="height: 1px; background-color: #d1d5db; line-height: 1px">&zwnj;</div>
@@ -263,7 +278,7 @@
                       <p style="margin: 0; font-size: 16px; line-height: 24px; color: #6b7280">
                         Originally by Robb Owen [@Robb0wen] for Visual Studio Code. Ported for PrismJS by Marc Backes [@themarcba].
                       </p>
-                      <table style="width: 100%" cellpadding="0" cellspacing="0" role="presentation">
+                      <table role="separator" style="width: 100%" cellpadding="0" cellspacing="0">
                         <tr>
                           <td style="padding-top: 24px; padding-bottom: 24px">
                             <div style="height: 1px; background-color: #d1d5db; line-height: 1px">&zwnj;</div>
@@ -279,13 +294,15 @@
                           Markdown
                         </a>
                       </h4>
-                      <p style="margin: 0; font-size: 16px; line-height: 24px; color: #6b7280">Learn how to use Markdown in your Maizzle email templates.</p>
+                      <p style="margin: 0; font-size: 16px; line-height: 24px; color: #6b7280">
+                        Learn how to use Markdown in your Maizzle email templates.
+                      </p>
                     </td>
                   </tr>
                 </table>
               </td>
             </tr>
-            <tr>
+            <tr role="separator">
               <td class="sm-h-8" style="height: 64px"></td>
             </tr>
             <tr>
@@ -296,7 +313,7 @@
                 </p>
               </td>
             </tr>
-            <tr>
+            <tr role="separator">
               <td class="sm-h-32" style="height: 48px"></td>
             </tr>
           </table>
