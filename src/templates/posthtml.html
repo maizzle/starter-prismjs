@@ -6,238 +6,236 @@ image: https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2
 ---
 
 <x-main>
-  <fill:template>
-    <table class="w-full font-sans">
-      <tr>
-        <td align="center" class="bg-gray-200 sm:px-4">
-          <table class="w-[600px] sm:w-full">
-            <tr>
-              <td class="p-12 sm:py-8 sm:px-6 text-center">
-                <a href="https://maizzle.com">
-                  <img src="images/maizzle.png" width="150" alt="Maizzle">
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td
-                class="bg-top bg-no-repeat bg-cover rounded text-left"
-                style="background-image: url('{{{ page.image }}}');"
-              >
-                <x-v-image image="{{{ page.image }}}">
-                  <div class="leading-16 sm:h-8" role="separator">&zwj;</div>
-                  <table class="w-full">
-                    <tr>
-                      <td class="w-12 sm:w-4"></td>
-                      <td>
-                        <h1 class="m-0 mb-4 text-4xl text-white sm:leading-10">
-                          Syntax highlighting
-                        </h1>
-
-                        <p class="m-0 text-white text-lg leading-6">
-                          Let's use PrismJS to add syntax highlighting to code blocks in our HTML email template.
-                        </p>
-
-                        <div class="leading-16 sm:h-8" role="separator">&zwj;</div>
-
-                        <table>
-                          <tr>
-                            <th class="sm:block">
-                              <a
-                                href="https://example.com"
-                                class="inline-block py-4 px-6 rounded text-base leading-full font-semibold text-center [text-decoration:none] text-white bg-indigo-800 hover:bg-indigo-700"
-                              >
-                                <outlook>
-                                  <i class="tracking-6 -mso-font-width-full mso-text-raise-7.5">&#8202;</i>
-                                </outlook>
-                                <span class="mso-text-raise-4" style="mso-text-raise: 16px">Read the guide &rarr;</span>
-                                <outlook>
-                                  <i class="tracking-6 -mso-font-width-full">&#8202;</i>
-                                </outlook>
-                              </a>
-                            </th>
-                            <th class="pl-4 sm:px-0 sm:pt-4 sm:block font-normal text-white text-base">
-                              or
-                              <a
-                                href="https://github.com/maizzle/starter-prismjs"
-                                class="text-white [text-decoration:underline] hover:[text-decoration:none]"
-                              >
-                                get the code
-                              </a>
-                            </th>
-                          </tr>
-                        </table>
-                      </td>
-                      <td class="w-12 sm:w-4"></td>
-                    </tr>
-                  </table>
-
-                  <div class="leading-16 sm:h-8" role="separator">&zwj;</div>
-                </x-v-image>
-              </td>
-            </tr>
-            <tr role="separator">
-              <td class="h-8"></td>
-            </tr>
-            <tr>
-              <td class="w-full px-6 sm:px-0 text-left">
+  <table class="w-full font-sans">
+    <tr>
+      <td align="center" class="bg-gray-200 sm:px-4">
+        <table class="w-[600px] sm:w-full">
+          <tr>
+            <td class="p-12 sm:py-8 sm:px-6 text-center">
+              <a href="https://maizzle.com">
+                <img src="images/maizzle.png" width="150" alt="Maizzle">
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="bg-top bg-no-repeat bg-cover rounded text-left"
+              style="background-image: url('{{{ page.image }}}');"
+            >
+              <x-v-image image="{{{ page.image }}}">
+                <div class="leading-16 sm:h-8" role="separator">&zwj;</div>
                 <table class="w-full">
                   <tr>
-                    <td class="w-full pb-8 sm:inline-block">
-                      <table class="w-full">
+                    <td class="w-12 sm:w-4"></td>
+                    <td>
+                      <h1 class="m-0 mb-4 text-4xl text-white sm:leading-10">
+                        Syntax highlighting
+                      </h1>
+
+                      <p class="m-0 text-white text-lg leading-6">
+                        Let's use PrismJS to add syntax highlighting to code blocks in our HTML email template.
+                      </p>
+
+                      <div class="leading-16 sm:h-8" role="separator">&zwj;</div>
+
+                      <table>
                         <tr>
-                          <td class="p-6 text-base leading-6 text-gray-800 bg-white rounded max-w-0">
-                            <p class="m-0 mb-1 text-sm text-gray-500">
-                              5 Feb, 2020
-                            </p>
+                          <th class="sm:block">
+                            <a
+                              href="https://example.com"
+                              class="inline-block py-4 px-6 rounded text-base leading-full font-semibold text-center [text-decoration:none] text-white bg-indigo-800 hover:bg-indigo-700"
+                            >
+                              <outlook>
+                                <i class="tracking-6 -mso-font-width-full mso-text-raise-7.5">&#8202;</i>
+                              </outlook>
+                              <span class="mso-text-raise-4" style="mso-text-raise: 16px">Read the guide &rarr;</span>
+                              <outlook>
+                                <i class="tracking-6 -mso-font-width-full">&#8202;</i>
+                              </outlook>
+                            </a>
+                          </th>
+                          <th class="pl-4 sm:px-0 sm:pt-4 sm:block font-normal text-white text-base">
+                            or
+                            <a
+                              href="https://github.com/maizzle/starter-prismjs"
+                              class="text-white [text-decoration:underline] hover:[text-decoration:none]"
+                            >
+                              get the code
+                            </a>
+                          </th>
+                        </tr>
+                      </table>
+                    </td>
+                    <td class="w-12 sm:w-4"></td>
+                  </tr>
+                </table>
 
-                            <h2 class="m-0 mb-6 text-2xl leading-7.5">
-                              <a
-                                href="https://maizzle.com/guides/syntax-highlight-code-html-emails/"
-                                class="text-black [text-decoration:none]"
-                              >
-                                Using PrismJS to add code syntax highlighting in HTML emails
-                              </a>
-                            </h2>
+                <div class="leading-16 sm:h-8" role="separator">&zwj;</div>
+              </x-v-image>
+            </td>
+          </tr>
+          <tr role="separator">
+            <td class="h-8"></td>
+          </tr>
+          <tr>
+            <td class="w-full px-6 sm:px-0 text-left">
+              <table class="w-full">
+                <tr>
+                  <td class="w-full pb-8 sm:inline-block">
+                    <table class="w-full">
+                      <tr>
+                        <td class="p-6 text-base leading-6 text-gray-800 bg-white rounded max-w-0">
+                          <p class="m-0 mb-1 text-sm text-gray-500">
+                            5 Feb, 2020
+                          </p>
 
-                            <p class="m-0 mb-6">
-                              This email template illustrates how code syntax highlighting in HTML email looks like.
-                              It was created using simple HTML syntax, PrismJS, and the Synthwave '84 theme.
-                            </p>
+                          <h2 class="m-0 mb-6 text-2xl leading-7.5">
+                            <a
+                              href="https://maizzle.com/guides/syntax-highlight-code-html-emails/"
+                              class="text-black [text-decoration:none]"
+                            >
+                              Using PrismJS to add code syntax highlighting in HTML emails
+                            </a>
+                          </h2>
 
-                            <p class="m-0 mb-6">
-                              For example, here's a block of JavaScript code:
-                            </p>
+                          <p class="m-0 mb-6">
+                            This email template illustrates how code syntax highlighting in HTML email looks like.
+                            It was created using simple HTML syntax, PrismJS, and the Synthwave '84 theme.
+                          </p>
 
-                            <!--[if mso]><table width="100%"><tr><td style="background: #2a2139; padding: 24px;"><![endif]-->
+                          <p class="m-0 mb-6">
+                            For example, here's a block of JavaScript code:
+                          </p>
+
+                          <!--[if mso]><table width="100%"><tr><td style="background: #2a2139; padding: 24px;"><![endif]-->
 <pre><code class="language-javascript">function foo(bar) {
-  var a = 42,
-    b = 'Prism';
-  return a + bar(b);
+var a = 42,
+  b = 'Prism';
+return a + bar(b);
 }</code></pre>
-                            <!--[if mso]></td></tr></table><![endif]-->
+                          <!--[if mso]></td></tr></table><![endif]-->
 
-                            <p class="m-0 mb-6">And here is some HTML markup:</p>
+                          <p class="m-0 mb-6">And here is some HTML markup:</p>
 
-                            <!--[if mso]><table width="100%"><tr><td style="background: #2a2139; padding: 24px;"><![endif]-->
+                          <!--[if mso]><table width="100%"><tr><td style="background: #2a2139; padding: 24px;"><![endif]-->
 <pre><code class="language-html"><table class="w-full">
-  <tr>
-    <td class="sm:w-1/2 sm:inline-block bg-white">
-      <p class="m-0 text-base text-gray-800">A simple paragraph</p>
-    </td>
-  </tr>
+<tr>
+  <td class="sm:w-1/2 sm:inline-block bg-white">
+    <p class="m-0 text-base text-gray-800">A simple paragraph</p>
+  </td>
+</tr>
 </table></code></pre>
-                            <!--[if mso]></td></tr></table><![endif]-->
+                          <!--[if mso]></td></tr></table><![endif]-->
 
-                            <table class="w-full" role="separator">
-                              <tr>
-                                <td class="py-6">
-                                  <div class="bg-gray-300 h-px leading-px">&zwj;</div>
-                                </td>
-                              </tr>
-                            </table>
+                          <table class="w-full" role="separator">
+                            <tr>
+                              <td class="py-6">
+                                <div class="bg-gray-300 h-px leading-px">&zwj;</div>
+                              </td>
+                            </tr>
+                          </table>
 
-                            <p class="m-0">
-                              Finally, you can use <code>&lt;code&gt;</code> tags to add bits
-                              of <code>inline code</code> to your email.
-                            </p>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-            <tr>
-              <td class="px-12 sm:px-6 text-left">
-                <h3 class="m-0 text-base font-semibold text-gray-500 uppercase">
-                  Resources
-                </h3>
+                          <p class="m-0">
+                            Finally, you can use <code>&lt;code&gt;</code> tags to add bits
+                            of <code>inline code</code> to your email.
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td class="px-12 sm:px-6 text-left">
+              <h3 class="m-0 text-base font-semibold text-gray-500 uppercase">
+                Resources
+              </h3>
 
-                <div class="leading-6" role="separator">&zwj;</div>
+              <div class="leading-6" role="separator">&zwj;</div>
 
-                <table class="w-full">
-                  <tr>
-                    <td>
-                      <h4 class="m-0 mb-1 text-xl font-semibold">
-                        <a
-                          href="https://maizzle.com/guides/syntax-highlight-code-html-emails/"
-                          class="text-blue-500 hover:text-blue-400 [text-decoration:none]"
-                        >
-                          Tutorial
-                        </a>
-                      </h4>
+              <table class="w-full">
+                <tr>
+                  <td>
+                    <h4 class="m-0 mb-1 text-xl font-semibold">
+                      <a
+                        href="https://maizzle.com/guides/syntax-highlight-code-html-emails/"
+                        class="text-blue-500 hover:text-blue-400 [text-decoration:none]"
+                      >
+                        Tutorial
+                      </a>
+                    </h4>
 
-                      <p class="m-0 text-base leading-6 text-gray-500">
-                        Read the tutorial to understand how to implement syntax highlighting
-                        using PrismJS in your Maizzle email templates.
-                      </p>
+                    <p class="m-0 text-base leading-6 text-gray-500">
+                      Read the tutorial to understand how to implement syntax highlighting
+                      using PrismJS in your Maizzle email templates.
+                    </p>
 
-                      <table class="w-full" role="separator">
-                        <tr>
-                          <td class="py-6">
-                            <div class="bg-gray-300 h-px leading-px">&zwj;</div>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <h4 class="m-0 mb-1 text-xl font-semibold">
-                        <a href="https://prismjs.com/" class="text-blue-500 hover:text-blue-400 [text-decoration:none]">
-                          PrismJS
-                        </a>
-                      </h4>
+                    <table class="w-full" role="separator">
+                      <tr>
+                        <td class="py-6">
+                          <div class="bg-gray-300 h-px leading-px">&zwj;</div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4 class="m-0 mb-1 text-xl font-semibold">
+                      <a href="https://prismjs.com/" class="text-blue-500 hover:text-blue-400 [text-decoration:none]">
+                        PrismJS
+                      </a>
+                    </h4>
 
-                      <p class="m-0 text-base leading-6 text-gray-500">
-                        Lightweight, extensible syntax highlighter, built with
-                        modern web standards in mind.
-                      </p>
+                    <p class="m-0 text-base leading-6 text-gray-500">
+                      Lightweight, extensible syntax highlighter, built with
+                      modern web standards in mind.
+                    </p>
 
-                      <table class="w-full" role="separator">
-                        <tr>
-                          <td class="py-6">
-                            <div class="bg-gray-300 h-px leading-px">&zwj;</div>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <h4 class="m-0 mb-1 text-xl font-semibold">
-                        <a href="https://github.com/PrismJS/prism-themes" class="text-blue-500 hover:text-blue-400 [text-decoration:none]">
-                          Synthwave '84
-                        </a>
-                      </h4>
+                    <table class="w-full" role="separator">
+                      <tr>
+                        <td class="py-6">
+                          <div class="bg-gray-300 h-px leading-px">&zwj;</div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4 class="m-0 mb-1 text-xl font-semibold">
+                      <a href="https://github.com/PrismJS/prism-themes" class="text-blue-500 hover:text-blue-400 [text-decoration:none]">
+                        Synthwave '84
+                      </a>
+                    </h4>
 
-                      <p class="m-0 text-base leading-6 text-gray-500">
-                        Originally by Robb Owen [@Robb0wen] for Visual Studio Code.
-                        Ported for PrismJS by Marc Backes [@themarcba].
-                      </p>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-            <tr role="separator">
-              <td class="h-16 sm:h-8"></td>
-            </tr>
-            <tr>
-              <td class="px-12 sm:px-6 py-4 bg-gray-300 rounded text-left">
-                <p class="m-0 text-sm text-gray-600">
-                  You are receiving this email because you signed up for Website Newsletter Weekly.
-                  You can <a href="https://example.com" class="text-blue-500 [text-decoration:none] hover:[text-decoration:underline]">unsubscribe</a> at any time.
-                </p>
-              </td>
-            </tr>
-            <tr role="separator">
-              <td class="h-12 sm:h-8"></td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </fill:template>
+                    <p class="m-0 text-base leading-6 text-gray-500">
+                      Originally by Robb Owen [@Robb0wen] for Visual Studio Code.
+                      Ported for PrismJS by Marc Backes [@themarcba].
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr role="separator">
+            <td class="h-16 sm:h-8"></td>
+          </tr>
+          <tr>
+            <td class="px-12 sm:px-6 py-4 bg-gray-300 rounded text-left">
+              <p class="m-0 text-sm text-gray-600">
+                You are receiving this email because you signed up for Website Newsletter Weekly.
+                You can <a href="https://example.com" class="text-blue-500 [text-decoration:none] hover:[text-decoration:underline]">unsubscribe</a> at any time.
+              </p>
+            </td>
+          </tr>
+          <tr role="separator">
+            <td class="h-12 sm:h-8"></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 </x-main>
